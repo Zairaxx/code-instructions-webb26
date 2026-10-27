@@ -1,0 +1,58 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background: #f4f4f5;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+h1 {
+  width: 100%;
+  margin: 0 0 8px;
+}
+
+.card {
+  width: 220px;
+  padding: 12px;
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin: 12px 0 4px;
+}
+
+.card-price {
+  font-weight: bold;
+  margin: 0 0 12px;
+}
+
+.card button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.card.favorite {
+  border-color: #e11d48;
+}
+
+.card.favorite button {
+  background: #e11d48;
+  color: #fff;
+}
